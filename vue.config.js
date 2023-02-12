@@ -5,6 +5,8 @@ function resolve(dir) {
 }
 
 module.exports = {
+  outputDir: path.resolve(__dirname, "../sub-web-dist"),
+  // assetsDir: "../../static/SPA"
   css: {
     loaderOptions: {
       less: {
